@@ -1,0 +1,79 @@
+﻿================================================================================
+          WHISPER LARGE-V3 BILINGUAL TRANSCRIPTION
+                Bengali + English Translation
+================================================================================
+
+🔄 SEGMENT-BY-SEGMENT COMPARISON
+--------------------------------------------------
+
+Segment 01:
+  ⏰ Bengali : [00:14.940 → 00:29.980]
+  🇧🇩 Bengali : আপা পর্সা পরকে কো করবো পর্সা মা আপা কি রেজাল আসা মিরেজাল হনে লিছি কি আমান আসান কি না আসান
+  ⏰ English : [00:00.000 → 00:03.740]
+  🇺🇸 English : for support over for some other key reason a semi-design a little cheeky
+
+Segment 02:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:03.740 → 00:04.780]
+  🇺🇸 English : monosynchymal sense
+
+Segment 03:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:15.499 → 00:19.500]
+  🇺🇸 English : Papa booty machine to me a flag for sectors Korea next had a set up by
+
+Segment 04:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:19.500 → 00:24.160]
+  🇺🇸 English : Amazon I'm a mother Vashavali album in our after the relationship was a bit
+
+Segment 05:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:24.799 → 00:28.640]
+  🇺🇸 English : yes had a set up the booty machine I wish for a set up I she she wish for the
+
+Segment 06:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:28.640 → 00:29.519]
+  🇺🇸 English : Thank you for watching this video.
+
+
+==================================================
+📅 TIMELINE VIEW
+==================================================
+
+
+--- MINUTE 1 ---
+00:00.000-00:03.740 | 🇺🇸 English | for support over for some other key reason a semi-design a little cheeky
+00:03.740-00:04.780 | 🇺🇸 English | monosynchymal sense
+00:14.940-00:29.980 | 🇧🇩 Bengali | আপা পর্সা পরকে কো করবো পর্সা মা আপা কি রেজাল আসা মিরেজাল হনে লিছি কি আমান আসান কি না আসান
+00:15.499-00:19.500 | 🇺🇸 English | Papa booty machine to me a flag for sectors Korea next had a set up by
+00:19.500-00:24.160 | 🇺🇸 English | Amazon I'm a mother Vashavali album in our after the relationship was a bit
+00:24.799-00:28.640 | 🇺🇸 English | yes had a set up the booty machine I wish for a set up I she she wish for the
+00:28.640-00:29.519 | 🇺🇸 English | Thank you for watching this video.
+
+==================================================
+📝 CONTINUOUS TEXT
+==================================================
+
+🇧🇩 BENGALI CONTINUOUS:
+------------------------------
+আপা পর্সা পরকে কো করবো পর্সা মা আপা কি রেজাল আসা মিরেজাল হনে লিছি কি আমান আসান কি না আসান
+
+🇺🇸 ENGLISH CONTINUOUS:
+------------------------------
+for support over for some other key reason a semi-design a little cheeky monosynchymal sense Papa booty machine to me a flag for sectors Korea next had a set up by Amazon I'm a mother Vashavali album in our after the relationship was a bit yes had a set up the booty machine I wish for a set up I she she wish for the Thank you for watching this video.
+
+==================================================
+📊 SUMMARY
+==================================================
+Total Duration: 00:29.980
+Bengali Segments: 1
+English Segments: 6
+Model Used: Whisper Large-V3
+Translation: Native Whisper Translation (High Quality)

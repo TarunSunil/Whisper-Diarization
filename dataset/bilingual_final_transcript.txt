@@ -1,0 +1,176 @@
+﻿================================================================================
+          WHISPER LARGE-V3 BILINGUAL TRANSCRIPTION
+                Bengali + English Translation
+================================================================================
+
+🔄 SEGMENT-BY-SEGMENT COMPARISON
+--------------------------------------------------
+
+Segment 01:
+  ⏰ Bengali : [00:01.240 → 00:02.000]
+  🇧🇩 Bengali : পাস সলমোলেকুম
+  ⏰ English : [00:01.700 → 00:02.540]
+  🇺🇸 English : Assalamu alaikum
+
+Segment 02:
+  ⏰ Bengali : [00:02.640 → 00:04.500]
+  🇧🇩 Bengali : বাল্লিকুম সলমাস না ফাড়
+  ⏰ English : [00:02.540 → 00:03.660]
+  🇺🇸 English : Walaikum assalam
+
+Segment 03:
+  ⏰ Bengali : [00:04.500 → 00:07.299]
+  🇧🇩 Bengali : আপা আমিতো পূতুই এবারে আপনাক ছেখাপ করি।
+  ⏰ English : [00:03.660 → 00:04.179]
+  🇺🇸 English : How are you all?
+
+Segment 04:
+  ⏰ Bengali : [00:07.299 → 00:09.000]
+  🇧🇩 Bengali : পূতুই মাসা মসা ছেখাপ করি।
+  ⏰ English : [00:04.320 → 00:04.679]
+  🇺🇸 English : Fine.
+
+Segment 05:
+  ⏰ Bengali : [00:09.000 → 00:13.120]
+  🇧🇩 Bengali : আইসকে ওই তারিকে পর্সা আমাক চেকাপ করতে আসনার আপনি কি চেকাপটা করার অনুমতে দেবেন
+  ⏰ English : [00:04.900 → 00:07.620]
+  🇺🇸 English : I am here to check-up you in this month.
+
+Segment 06:
+  ⏰ Bengali : [00:13.799 → 00:29.980]
+  🇧🇩 Bengali : আসকে আমি আপনাক চেকাপ করবো পূতি মাসে যেমন চেকাপ করি চেকাপ করবো
+  ⏰ English : [00:08.760 → 00:11.179]
+  🇺🇸 English : Today is the 30th and you are here to do that.
+
+Segment 07:
+  ⏰ Bengali : [00:30.000 → 00:59.980]
+  🇧🇩 Bengali : এহন আপা পর্সাপ পর্কে করবো পর্সাপ মানে আপা কি রেজা নাসে আমি রেজা নাসনে দিছে কি আমান আসন কি নাসন
+  ⏰ English : [00:11.199 → 00:12.140]
+  🇺🇸 English : So, can you give the permission to check-up?
+
+Segment 08:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:12.939 → 00:13.339]
+  🇺🇸 English : Yes
+
+Segment 09:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:13.339 → 00:15.880]
+  🇺🇸 English : And today we will check-up you in this month.
+
+Segment 10:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:17.220 → 00:20.960]
+  🇺🇸 English : I am a little scared that it will be too much work.
+
+Segment 11:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:21.000 → 00:22.960]
+  🇺🇸 English : Do you have any problem because of this?
+
+Segment 12:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:22.960 → 00:24.100]
+  🇺🇸 English : No, I don't have any problem.
+
+Segment 13:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:24.120 → 00:25.379]
+  🇺🇸 English : So, I will start the work, ok?
+
+Segment 14:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:25.399 → 00:25.679]
+  🇺🇸 English : Yes
+
+Segment 15:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:25.679 → 00:27.120]
+  🇺🇸 English : Ok. So, please take your work.
+
+Segment 16:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:30.000 → 00:32.600]
+  🇺🇸 English : Now I am going to check if there is any problem with my work.
+
+Segment 17:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:45.559 → 00:49.159]
+  🇺🇸 English : Every month I try my work and I get a lot of good results.
+
+Segment 18:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:50.279 → 00:55.739]
+  🇺🇸 English : In our language, we call it albumin and in your language, we call it sada serap.
+
+Segment 19:
+  ⏰ Bengali : [N/A → N/A]
+  🇧🇩 Bengali : [No Bengali segment]
+  ⏰ English : [00:56.039 → 00:58.859]
+  🇺🇸 English : In our language, we call it sada serap and in our language, we call it sada serap.
+
+
+==================================================
+📅 TIMELINE VIEW
+==================================================
+
+
+--- MINUTE 1 ---
+00:01.240-00:02.000 | 🇧🇩 Bengali | পাস সলমোলেকুম
+00:01.700-00:02.540 | 🇺🇸 English | Assalamu alaikum
+00:02.540-00:03.660 | 🇺🇸 English | Walaikum assalam
+00:02.640-00:04.500 | 🇧🇩 Bengali | বাল্লিকুম সলমাস না ফাড়
+00:03.660-00:04.179 | 🇺🇸 English | How are you all?
+00:04.320-00:04.679 | 🇺🇸 English | Fine.
+00:04.500-00:07.299 | 🇧🇩 Bengali | আপা আমিতো পূতুই এবারে আপনাক ছেখাপ করি।
+00:04.900-00:07.620 | 🇺🇸 English | I am here to check-up you in this month.
+00:07.299-00:09.000 | 🇧🇩 Bengali | পূতুই মাসা মসা ছেখাপ করি।
+00:08.760-00:11.179 | 🇺🇸 English | Today is the 30th and you are here to do that.
+00:09.000-00:13.120 | 🇧🇩 Bengali | আইসকে ওই তারিকে পর্সা আমাক চেকাপ করতে আসনার আপনি কি চেকাপটা করার অনুমতে দেবেন
+00:11.199-00:12.140 | 🇺🇸 English | So, can you give the permission to check-up?
+00:12.939-00:13.339 | 🇺🇸 English | Yes
+00:13.339-00:15.880 | 🇺🇸 English | And today we will check-up you in this month.
+00:13.799-00:29.980 | 🇧🇩 Bengali | আসকে আমি আপনাক চেকাপ করবো পূতি মাসে যেমন চেকাপ করি চেকাপ করবো
+00:17.220-00:20.960 | 🇺🇸 English | I am a little scared that it will be too much work.
+00:21.000-00:22.960 | 🇺🇸 English | Do you have any problem because of this?
+00:22.960-00:24.100 | 🇺🇸 English | No, I don't have any problem.
+00:24.120-00:25.379 | 🇺🇸 English | So, I will start the work, ok?
+00:25.399-00:25.679 | 🇺🇸 English | Yes
+00:25.679-00:27.120 | 🇺🇸 English | Ok. So, please take your work.
+00:30.000-00:59.980 | 🇧🇩 Bengali | এহন আপা পর্সাপ পর্কে করবো পর্সাপ মানে আপা কি রেজা নাসে আমি রেজা নাসনে দিছে কি আমান আসন কি নাসন
+00:30.000-00:32.600 | 🇺🇸 English | Now I am going to check if there is any problem with my work.
+00:45.559-00:49.159 | 🇺🇸 English | Every month I try my work and I get a lot of good results.
+00:50.279-00:55.739 | 🇺🇸 English | In our language, we call it albumin and in your language, we call it sada serap.
+00:56.039-00:58.859 | 🇺🇸 English | In our language, we call it sada serap and in our language, we call it sada serap.
+
+==================================================
+📝 CONTINUOUS TEXT
+==================================================
+
+🇧🇩 BENGALI CONTINUOUS:
+------------------------------
+পাস সলমোলেকুম বাল্লিকুম সলমাস না ফাড় আপা আমিতো পূতুই এবারে আপনাক ছেখাপ করি। পূতুই মাসা মসা ছেখাপ করি। আইসকে ওই তারিকে পর্সা আমাক চেকাপ করতে আসনার আপনি কি চেকাপটা করার অনুমতে দেবেন আসকে আমি আপনাক চেকাপ করবো পূতি মাসে যেমন চেকাপ করি চেকাপ করবো এহন আপা পর্সাপ পর্কে করবো পর্সাপ মানে আপা কি রেজা নাসে আমি রেজা নাসনে দিছে কি আমান আসন কি নাসন
+
+🇺🇸 ENGLISH CONTINUOUS:
+------------------------------
+Assalamu alaikum Walaikum assalam How are you all? Fine. I am here to check-up you in this month. Today is the 30th and you are here to do that. So, can you give the permission to check-up? Yes And today we will check-up you in this month. I am a little scared that it will be too much work. Do you have any problem because of this? No, I don't have any problem. So, I will start the work, ok? Yes Ok. So, please take your work. Now I am going to check if there is any problem with my work. Every month I try my work and I get a lot of good results. In our language, we call it albumin and in your language, we call it sada serap. In our language, we call it sada serap and in our language, we call it sada serap.
+
+==================================================
+📊 SUMMARY
+==================================================
+Total Duration: 00:59.980
+Bengali Segments: 7
+English Segments: 19
+Model Used: Whisper Large-V3
+Translation: Native Whisper Translation (High Quality)
