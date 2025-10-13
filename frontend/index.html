@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whisper Diarization - AI Speech Processing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/>
+                    </svg>
+                </div>
+                <h1>Whisper Diarization</h1>
+            </div>
+            <p class="subtitle">AI-powered speech transcription and speaker identification</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Upload Section -->
+            <section class="upload-section" id="uploadSection">
+                <div class="upload-card">
+                    <!-- Upload Mode Selector -->
+                    <div class="mode-selector">
+                        <button class="mode-btn active" id="uploadModeBtn" data-mode="upload">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                            </svg>
+                            Upload File
+                        </button>
+                        <button class="mode-btn" id="recordModeBtn" data-mode="record">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/>
+                            </svg>
+                            Record Audio
+                        </button>
+                    </div>
+
+                    <!-- Upload Area -->
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                            </svg>
+                        </div>
+                        <h3>Upload Audio File</h3>
+                        <p>Drag and drop your audio file here, or click to browse</p>
+                        <p class="file-types">Supports: MP3, WAV, M4A, FLAC</p>
+                        <input type="file" id="fileInput" accept="audio/*" hidden>
+                    </div>
+
+                    <!-- Record Area -->
+                    <div class="record-area" id="recordArea" style="display: none;">
+                        <div class="record-controls">
+                            <div class="record-visualizer">
+                                <div class="mic-icon" id="micIcon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/>
+                                    </svg>
+                                </div>
+                                <div class="record-waves" id="recordWaves">
+                                    <div class="record-wave"></div>
+                                    <div class="record-wave"></div>
+                                    <div class="record-wave"></div>
+                                    <div class="record-wave"></div>
+                                    <div class="record-wave"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="record-status" id="recordStatus">
+                                <p>Click the record button to start recording</p>
+                                <div class="record-timer" id="recordTimer" style="display: none;">00:00</div>
+                            </div>
+                            
+                            <div class="record-buttons">
+                                <button class="record-btn" id="startRecordBtn">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <circle cx="12" cy="12" r="10"/>
+                                    </svg>
+                                    Start Recording
+                                </button>
+                                <button class="record-btn secondary" id="stopRecordBtn" style="display: none;">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <rect x="6" y="6" width="12" height="12" rx="1"/>
+                                    </svg>
+                                    Stop Recording
+                                </button>
+                                <button class="record-btn tertiary" id="playRecordBtn" style="display: none;">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M8,5.14V19.14L19,12.14L8,5.14Z"/>
+                                    </svg>
+                                    Play
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="file-info" id="fileInfo" style="display: none;">
+                        <div class="file-details">
+                            <div class="file-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                                </svg>
+                            </div>
+                            <div class="file-text">
+                                <div class="file-name" id="fileName"></div>
+                                <div class="file-size" id="fileSize"></div>
+                            </div>
+                            <button class="remove-file" id="removeFile">×</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Options -->
+                <div class="options-card">
+                    <h4>Processing Options</h4>
+                    <div class="options-grid">
+                        <div class="option-group">
+                            <label for="whisperModel">Whisper Model</label>
+                            <select id="whisperModel">
+                                <option value="large-v3">Large v3 (Best Quality)</option>
+                                <option value="large-v2" selected>Large v2 (Recommended)</option>
+                                <option value="medium">Medium (Faster)</option>
+                                <option value="small">Small (Fast)</option>
+                                <option value="base">Base (Fastest)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label for="language">Language</label>
+                            <select id="language">
+                                <option value="auto">Auto Detect</option>
+                                <option value="en">English</option>
+                                <option value="es">Spanish</option>
+                                <option value="fr">French</option>
+                                <option value="de">German</option>
+                                <option value="it">Italian</option>
+                                <option value="pt">Portuguese</option>
+                                <option value="ru">Russian</option>
+                                <option value="ja">Japanese</option>
+                                <option value="ko">Korean</option>
+                                <option value="zh">Chinese</option>
+                            </select>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label for="device">Processing Device</label>
+                            <select id="device">
+                                <option value="cuda">GPU (CUDA)</option>
+                                <option value="cpu">CPU Only</option>
+                            </select>
+                        </div>
+                        
+                        <div class="option-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="stemming" checked>
+                                <span class="checkmark"></span>
+                                Source separation
+                            </label>
+                            <small>Improves accuracy for music-heavy content</small>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="process-btn" id="processBtn" disabled>
+                    <span class="btn-text">Process Audio</span>
+                    <div class="btn-loader" style="display: none;">
+                        <div class="spinner"></div>
+                    </div>
+                </button>
+            </section>
+
+            <!-- Processing Section -->
+            <section class="processing-section" id="processingSection" style="display: none;">
+                <div class="processing-card">
+                    <div class="processing-header">
+                        <div class="processing-icon">
+                            <div class="wave-animation">
+                                <div class="wave"></div>
+                                <div class="wave"></div>
+                                <div class="wave"></div>
+                                <div class="wave"></div>
+                            </div>
+                        </div>
+                        <h3>Processing your audio...</h3>
+                        <p>This may take a few minutes depending on file size and selected model</p>
+                    </div>
+                    
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <div class="progress-text" id="progressText">Initializing...</div>
+                    </div>
+                    
+                    <div class="processing-steps">
+                        <div class="step" id="step1">
+                            <div class="step-icon">1</div>
+                            <span>Audio preprocessing</span>
+                        </div>
+                        <div class="step" id="step2">
+                            <div class="step-icon">2</div>
+                            <span>Speech transcription</span>
+                        </div>
+                        <div class="step" id="step3">
+                            <div class="step-icon">3</div>
+                            <span>Speaker diarization</span>
+                        </div>
+                        <div class="step" id="step4">
+                            <div class="step-icon">4</div>
+                            <span>Final processing</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <div class="results-card">
+                    <div class="results-header">
+                        <h3>Transcription Complete</h3>
+                        <div class="results-actions">
+                            <button class="action-btn" id="downloadBtn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"/>
+                                </svg>
+                                Download
+                            </button>
+                            <button class="action-btn secondary" id="newFileBtn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+                                </svg>
+                                New File
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="transcript-container" id="transcriptContainer">
+                        <!-- Transcript will be populated here -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
