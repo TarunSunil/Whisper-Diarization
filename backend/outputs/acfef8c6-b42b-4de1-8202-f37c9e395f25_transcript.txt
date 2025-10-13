@@ -1,0 +1,11 @@
+Whisper Diarization Transcript
+Generated: 2025-10-07 19:03:43
+File: 00-30.wav
+Options: {
+  "whisper_model": "tiny",
+  "language": "auto",
+  "device": "cpu",
+  "skip_diarization": true
+}
+==================================================
+
