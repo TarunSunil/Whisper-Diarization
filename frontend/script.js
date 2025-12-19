@@ -162,6 +162,14 @@ function formatFileSize(bytes) {
 // Processing
 async function startProcessing() {
     if (!selectedFile) return;
+    // Guard against double-clicks
+    processBtn.disabled = true;
+    const btnText = processBtn.querySelector('.btn-text');
+    const btnLoader = processBtn.querySelector('.btn-loader');
+    if (btnText && btnLoader) {
+        btnText.style.display = 'none';
+        btnLoader.style.display = 'flex';
+    }
     
     // Get options
     const options = {
@@ -188,7 +196,8 @@ async function startProcessing() {
         });
         
         if (!uploadResponse.ok) {
-            throw new Error('Upload failed');
+            const errText = await uploadResponse.text();
+            throw new Error(`Upload failed: ${errText}`);
         }
         
         const { job_id } = await uploadResponse.json();
@@ -199,7 +208,8 @@ async function startProcessing() {
         // Get results
         const resultResponse = await fetch(`/api/result/${job_id}`);
         if (!resultResponse.ok) {
-            throw new Error('Failed to get results');
+            const errText = await resultResponse.text();
+            throw new Error(`Failed to get results: ${errText}`);
         }
         
         const transcript = await resultResponse.json();
@@ -210,8 +220,15 @@ async function startProcessing() {
         
     } catch (error) {
         console.error('Processing error:', error);
-        showError('An error occurred during processing. Please try again.');
+        showError(error?.message || 'An error occurred during processing. Please try again.');
         resetToUpload();
+    } finally {
+        // Restore button state
+        if (btnText && btnLoader) {
+            btnText.style.display = '';
+            btnLoader.style.display = 'none';
+        }
+        processBtn.disabled = false;
     }
 }
 

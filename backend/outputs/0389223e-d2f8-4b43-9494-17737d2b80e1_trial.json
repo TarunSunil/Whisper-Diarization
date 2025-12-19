@@ -1,0 +1,196 @@
+[
+  {
+    "start": 0.6800000000000024,
+    "end": 6.6,
+    "text": "Hello, my name is Tarun and this is a trial sample of checking if this project works.",
+    "words": [
+      {
+        "word": " Hello,",
+        "start": 0.6800000000000024,
+        "end": 1.12
+      },
+      {
+        "word": " my",
+        "start": 1.2,
+        "end": 1.26
+      },
+      {
+        "word": " name",
+        "start": 1.26,
+        "end": 1.44
+      },
+      {
+        "word": " is",
+        "start": 1.44,
+        "end": 1.6
+      },
+      {
+        "word": " Tarun",
+        "start": 1.6,
+        "end": 1.92
+      },
+      {
+        "word": " and",
+        "start": 1.92,
+        "end": 2.16
+      },
+      {
+        "word": " this",
+        "start": 2.16,
+        "end": 2.48
+      },
+      {
+        "word": " is",
+        "start": 2.48,
+        "end": 2.62
+      },
+      {
+        "word": " a",
+        "start": 2.62,
+        "end": 2.96
+      },
+      {
+        "word": " trial",
+        "start": 2.96,
+        "end": 3.68
+      },
+      {
+        "word": " sample",
+        "start": 3.68,
+        "end": 4.02
+      },
+      {
+        "word": " of",
+        "start": 4.02,
+        "end": 4.3
+      },
+      {
+        "word": " checking",
+        "start": 4.3,
+        "end": 4.76
+      },
+      {
+        "word": " if",
+        "start": 4.76,
+        "end": 5.7
+      },
+      {
+        "word": " this",
+        "start": 5.7,
+        "end": 5.84
+      },
+      {
+        "word": " project",
+        "start": 5.84,
+        "end": 6.2
+      },
+      {
+        "word": " works.",
+        "start": 6.2,
+        "end": 6.6
+      }
+    ],
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "start": 7.44,
+    "end": 9.4,
+    "text": "1, 2, 3, 4, 5, 6, 1.",
+    "words": [
+      {
+        "word": " 1,",
+        "start": 7.44,
+        "end": 7.62
+      },
+      {
+        "word": " 2,",
+        "start": 7.84,
+        "end": 7.92
+      },
+      {
+        "word": " 3,",
+        "start": 8.06,
+        "end": 8.22
+      },
+      {
+        "word": " 4,",
+        "start": 8.36,
+        "end": 8.5
+      },
+      {
+        "word": " 5,",
+        "start": 8.64,
+        "end": 8.82
+      },
+      {
+        "word": " 6,",
+        "start": 8.88,
+        "end": 9.08
+      },
+      {
+        "word": " 1.",
+        "start": 9.2,
+        "end": 9.4
+      }
+    ],
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "start": 13.760000000000002,
+    "end": 19.12,
+    "text": "This is a speaker dialyzation AI speech-to-text converter.",
+    "words": [
+      {
+        "word": " This",
+        "start": 13.760000000000002,
+        "end": 14.2
+      },
+      {
+        "word": " is",
+        "start": 14.2,
+        "end": 14.32
+      },
+      {
+        "word": " a",
+        "start": 14.32,
+        "end": 14.46
+      },
+      {
+        "word": " speaker",
+        "start": 14.46,
+        "end": 14.68
+      },
+      {
+        "word": " dialyzation",
+        "start": 14.68,
+        "end": 15.52
+      },
+      {
+        "word": " AI",
+        "start": 15.52,
+        "end": 17.36
+      },
+      {
+        "word": " speech",
+        "start": 17.36,
+        "end": 18.32
+      },
+      {
+        "word": "-to",
+        "start": 18.32,
+        "end": 18.54
+      },
+      {
+        "word": "-text",
+        "start": 18.54,
+        "end": 18.72
+      },
+      {
+        "word": " converter.",
+        "start": 18.72,
+        "end": 19.12
+      }
+    ],
+    "speaker": "SPEAKER_00"
+  }
+]

@@ -1,0 +1,25 @@
+# Core Framework & API
+flask>=2.3.0
+flask-cors>=4.0.0
+werkzeug>=2.3.0
+python-multipart>=0.0.6
+requests
+
+# Audio Processing & Transcription
+faster-whisper>=1.1.0
+pydub
+torch
+torchaudio
+
+# Diarization & Alignment
+nemo_toolkit[asr]>=2.3.0
+pyannote.audio
+nltk
+
+# External Tools (Git installs)
+git+https://github.com/MahmoudAshraf97/demucs.git
+git+https://github.com/oliverguhr/deepmultilingualpunctuation.git
+git+https://github.com/MahmoudAshraf97/ctc-forced-aligner.git
+
+# Note: You also need to install FFmpeg on your system and add it to PATH.
+# Download from: https://ffmpeg.org/download.html

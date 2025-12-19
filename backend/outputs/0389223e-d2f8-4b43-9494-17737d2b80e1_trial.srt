@@ -1,0 +1,12 @@
+1
+00:00:00,680 --> 00:00:06,599
+[SPEAKER_00] Hello, my name is Tarun and this is a trial sample of checking if this project works.
+
+2
+00:00:07,440 --> 00:00:09,400
+[SPEAKER_00] 1, 2, 3, 4, 5, 6, 1.
+
+3
+00:00:13,760 --> 00:00:19,120
+[SPEAKER_00] This is a speaker dialyzation AI speech-to-text converter.
+

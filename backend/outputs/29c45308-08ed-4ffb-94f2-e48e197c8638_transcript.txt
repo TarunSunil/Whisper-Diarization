@@ -1,0 +1,23 @@
+Whisper Diarization Transcript
+Generated: 2025-10-31 23:48:19
+File: 30-60.wav
+Options: {
+  "whisper_model": "large-v2",
+  "language": "auto",
+  "device": "cuda",
+  "stemming": true
+}
+==================================================
+
+[00:00:00 - 00:00:15] Speaker 1:
+This is a demonstration of the Whisper Diarization system processing the file 30-60.wav. The system successfully identified multiple speakers and transcribed their speech.
+
+[00:00:16 - 00:00:28] Speaker 2:
+The AI-powered transcription includes automatic punctuation, speaker separation, and timestamp generation. This makes it perfect for meetings, interviews, and podcasts.
+
+[00:00:29 - 00:00:45] Speaker 1:
+Key features include support for multiple audio formats, real-time processing feedback, and the ability to download results. The system uses OpenAI Whisper for transcription and NeMo for diarization.
+
+[00:00:46 - 00:01:02] Speaker 3:
+For production use, simply ensure the whisper-diarization dependencies are installed and the processing will use the actual AI models instead of this demo output.
+

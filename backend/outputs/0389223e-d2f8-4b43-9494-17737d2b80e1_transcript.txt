@@ -1,0 +1,20 @@
+Whisper Diarization Transcript
+Generated: 2025-10-31 23:56:50
+File: trial.m4a
+Options: {
+  "whisper_model": "large-v2",
+  "language": "auto",
+  "device": "cuda",
+  "stemming": true
+}
+==================================================
+
+[00:00:00 - 00:00:06] SPEAKER_00:
+Hello, my name is Tarun and this is a trial sample of checking if this project works.
+
+[00:00:07 - 00:00:09] SPEAKER_00:
+1, 2, 3, 4, 5, 6, 1.
+
+[00:00:13 - 00:00:19] SPEAKER_00:
+This is a speaker dialyzation AI speech-to-text converter.
+
